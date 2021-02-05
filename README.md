@@ -1,5 +1,5 @@
 # AIWaterMeter
-AI based extraction of water meter reading in .jpg format
+AI based extraction of water meter readings in .jpg format
 
 | From | This project | To |
 |------|--------------|----|
