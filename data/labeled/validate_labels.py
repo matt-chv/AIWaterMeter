@@ -1,6 +1,6 @@
 """ Validating that labeling is OK as much as posisble:
 * images (.jpg) file format should be 
-%Y-%m-%d-%H-%M-%S_Volumeinm3.volume.jpg
+%Y-%m-%d-%H-%M-%S_Volumeinm3.volumedl.jpg
 * volume increase over time should be positive or null
 """
 
