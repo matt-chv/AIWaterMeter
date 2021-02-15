@@ -18,9 +18,7 @@ model = models.load_model("watermeter.h5")
 def ReadSingleDial(file):
     img = cv2.imread(file, cv2.IMREAD_GRAYSCALE)
     img = cv2.resize(img, (200, 200), interpolation = cv2.INTER_AREA)
-    #plt.imshow(img,cmap='gray', vmin=0, vmax=255)
     img = np.reshape(img,(1,200,200,1))/255.
-    
     result = model.predict(img)
     
     #print("Classified as: " + str(np.argmax(result)*0.5))
@@ -82,8 +80,6 @@ def on_message_print(client, userdata, message):
         imageIn = cv2.imread('raw/' + date_time + '.jpg', cv2.IMREAD_COLOR)
         imageRotated = Rotate(imageIn, 90)
         cv2.imwrite("rotated/"  + date_time +"_rot.jpg", imageRotated)
-        #imageAligned = Alignment(imageRotated)
-        #cv2.imwrite("wasser/processed/aligned/"  + date_time +"_rot.jpg", imageAligned)
         imageAnalog = []
         reading = []
         for i in range(0, 4):
