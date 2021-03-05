@@ -22,7 +22,7 @@ We will try in the next 20mn to answer those questions.
 
 ----
 
-<!-- .slide: data-background-iframe="https://matt-chv.github.io/aiwatermeter/reveal/ai_news.html#/" data-background-interactive-->
+<!-- .slide: data-background-iframe="https://matt-chv.github.io/AIWaterMeter/reveal/ai_news.html#/" data-background-interactive-->
 
 1. Reveal is cool - allows slideset nesting
 2. MVC: keep data and rendering separate
