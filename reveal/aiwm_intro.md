@@ -37,3 +37,30 @@ We will try in the next 20mn to answer those questions.
 1. Project update <!-- .element: class="fragment" data-fragment-index="2" -->
 2. Project next step <!-- .element: class="fragment" data-fragment-index="3" -->
 
+----
+
+### AIWM Overview
+
+* 3D printed casing
+* ESP32+camera module
+* MQTT messages
+* CNN for image processing
+
+----
+
+### Project udpate - CNN processing
+
+* training on gauges - OKish
+* training on numbers - TBD
+* github repo - ok
+* wiki - started
+
+----
+
+### Project next steps
+
+* Find why training does not work on Win10 (at least for Matt)
+* non-regression testing for incremental changes on code
+* find more training data (see issue list)
+* more ?
+
