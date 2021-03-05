@@ -1,0 +1,71 @@
+body {
+    background: #fff;
+    font-family: "Ubuntu", "Open Sans", sans-serif;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-family: "Ubuntu", "Open Sans", sans-serif;
+  text-transform: none;
+  line-height: 1em;
+  letter-spacing: -0.06em;
+}
+
+.reveal h2 {
+    margin-top: 1em;
+}
+
+.reveal h3 {
+    margin-bottom: 0.5em;
+}
+.reveal h3.fin {
+    margin-top: 2em;
+}
+.reveal h3.questions {
+    color:red;
+    font-size: 400%;
+    font-weight: bold;
+}
+
+.reveal code {
+    font-size: 82%;
+}
+
+.reveal .autor {
+    margin-top: 2em;
+    font-size: smaller;
+}
+
+.reveal li {
+    padding-left: 0.25em;
+    line-height: 1.25em;
+    margin-bottom: 0.35em;
+}
+
+.reveal .slides section {
+    height: 90%;
+    margin-top: 10%;
+}
+
+/*  Imágenes  */
+.reveal section img {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+}
+
+/*  Segundo nivel de listas  */
+.reveal ul ul {
+    list-style-type: circle;
+    margin-top: 0.25em;
+}
+
+/*  Código fuente  */
+.reveal pre {
+    font-size: 0.8em;
+}
