@@ -24,10 +24,15 @@ We will try in the next 20mn to answer those questions.
 
 <!-- .slide: data-background-iframe="https://matt-chv.github.io/AIWaterMeter/reveal/ai_news.html#/" data-background-interactive-->
 
-1. Reveal is cool - allows slideset nesting
-2. MVC: keep data and rendering separate
-3. ...
-
+<div style="position: absolute; width: 30%; right: -400px; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+    <h2>mmWave and vision fusion in ROS </h2>
+  <ul> 
+    <li> Why re-invent the wheel? </li></span>
+    <span class="fragment"><li> Reveal is cool - allows slideset nesting </li></span>
+    <span class="fragment"><li> MVC: keep data and rendering separate </li></span>
+    <span class="fragment"><li> ...  </li></span>
+  </ul>
+</div>
 
 ---
 
